@@ -3,34 +3,34 @@
 
 Link: [trello](https://trello.com/b/oGGo1Cjz/projeto-clinica-medica)
 
-[cite_start]Este repositório contém o desenvolvimento do **Sistema de Gestão para a Clínica Médica - Mais Saúde**, cujo objetivo é informatizar, centralizar e otimizar os processos administrativos e clínicos da instituição[cite: 7, 19]. [cite_start]A plataforma engloba uma aplicação web dedicada à operação interna e um aplicativo móvel voltado para a experiência do paciente[cite: 20].
+Este repositório contém o desenvolvimento do **Sistema de Gestão para a Clínica Médica - Mais Saúde**, cujo objetivo é informatizar, centralizar e otimizar os processos administrativos e clínicos da instituição. A plataforma engloba uma aplicação web dedicada à operação interna e um aplicativo móvel voltado para a experiência do paciente.
 
 ---
 
 ## 📌 Visão Geral do Projeto
-[cite_start]O sistema foi projetado para eliminar o uso de documentos físicos e otimizar o tempo de atendimento por meio de uma plataforma segura, integrada e auditável[cite: 21, 28]. [cite_start]Entre os benefícios esperados estão a redução de erros manuais, maior controle de prontuários, garantia de integridade dos dados e capacidade de atendimento remoto[cite: 22, 27].
+O sistema foi projetado para eliminar o uso de documentos físicos e otimizar o tempo de atendimento por meio de uma plataforma segura, integrada e auditável. Entre os benefícios esperados estão a redução de erros manuais, maior controle de prontuários, garantia de integridade dos dados e capacidade de atendimento remoto.
 
 ---
 
 ## 👥 Atores do Sistema (Perfis de Acesso)
-[cite_start]O controle de acesso é baseado em papéis (**RBAC - Role-Based Access Control**), dividindo-se em cinco perfis distintos[cite: 13, 147]:
-* [cite_start]**Administrador:** Responsável pelo gerenciamento estratégico, configurações de TI e controle total de usuários e permissões[cite: 31, 126].
-* [cite_start]**Médico:** Profissional que realiza os atendimentos clínicos, gerencia sua própria agenda, acessa históricos médicos e emite prescrições digitais[cite: 30, 118, 123].
-* [cite_start]**Recepcionista / Secretária:** Operador do balcão de atendimento físico, responsável pelo fluxo de agendamentos, atualizações de status e faturamento[cite: 29, 109, 115].
-* [cite_start]**Paciente:** Usuário final que utiliza o portal ou aplicativo móvel para se cadastrar, consultar horários, agendar/cancelar consultas e teleconsultas[cite: 32, 33, 102].
-* [cite_start]**Farmacêutico:** Responsável por gerenciar o estoque, atualizar a disponibilidade de medicamentos na plataforma e registrar as dispensações[cite: 34, 35, 137].
+O controle de acesso é baseado em papéis (**RBAC - Role-Based Access Control**), dividindo-se em cinco perfis distintos:
+**Administrador:** Responsável pelo gerenciamento estratégico, configurações de TI e controle total de usuários e permissões.
+**Médico:** Profissional que realiza os atendimentos clínicos, gerencia sua própria agenda, acessa históricos médicos e emite prescrições digitais.
+**Recepcionista / Secretária:** Operador do balcão de atendimento físico, responsável pelo fluxo de agendamentos, atualizações de status e faturamento.
+**Paciente:** Usuário final que utiliza o portal ou aplicativo móvel para se cadastrar, consultar horários, agendar/cancelar consultas e teleconsultas.
+**Farmacêutico:** Responsável por gerenciar o estoque, atualizar a disponibilidade de medicamentos na plataforma e registrar as dispensações.
 
 ---
 
 ## 🔍 Escopo Funcional (Módulos)
 
-[cite_start]O sistema é composto por 6 macro-módulos funcionais[cite: 37, 65]:
+O sistema é composto por 6 macro-módulos funcionais:
 
 ### 1. Módulo de Pacientes
-* [cite_start]Autocadastro de pacientes via web/mobile e validação de documentos[cite: 38].
-* [cite_start]Manutenção de dados cadastrais (CRUD) por níveis de acesso autorizados[cite: 11, 39].
-* [cite_start]Busca indexada de pacientes utilizando filtros por **Nome Completo** ou **CPF**[cite: 40].
-* [cite_start]Exclusão lógica de cadastros em estrita conformidade com a **LGPD**[cite: 42].
+* Autocadastro de pacientes via web/mobile e validação de documentos.
+* Manutenção de dados cadastrais (CRUD) por níveis de acesso autorizados.
+* Busca indexada de pacientes utilizando filtros por **Nome Completo** ou **CPF**.
+* Exclusão lógica de cadastros em estrita conformidade com a **LGPD**.
 
 ### 2. Módulo de Profissionais e Equipe
 * [cite_start]Cadastro e categorização de colaboradores de acordo com suas funções técnicas[cite: 43].
