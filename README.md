@@ -1,5 +1,8 @@
 # Sistema de Gestão para Clínica Médica - Mais Saúde
 
+
+Link: [trello](https://trello.com/b/oGGo1Cjz/projeto-clinica-medica)
+
 [cite_start]Este repositório contém o desenvolvimento do **Sistema de Gestão para a Clínica Médica - Mais Saúde**, cujo objetivo é informatizar, centralizar e otimizar os processos administrativos e clínicos da instituição[cite: 7, 19]. [cite_start]A plataforma engloba uma aplicação web dedicada à operação interna e um aplicativo móvel voltado para a experiência do paciente[cite: 20].
 
 ---
@@ -105,5 +108,3 @@ CREATE TABLE logs_auditoria (
 └── docs/                # Diagramas UML (Casos de Uso, Atividades, Sequência e Classes)
 
 
-
-link trello: [https://trello.com/b/oGGo1Cjz/projeto-clinica-medica]
